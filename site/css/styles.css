@@ -1,0 +1,14 @@
+@media screen and (max-width: 600px) {
+    main,
+    footer{
+        margin-left: 100px;
+    }
+    
+    main{
+        max-height: calc(100vh - 32px -100px);
+    }
+}
+@media screen and (win-width: 601px){
+    
+}
+    

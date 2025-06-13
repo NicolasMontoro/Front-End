@@ -1,0 +1,48 @@
+:root {
+    --corFundo: rgb(190, 190, 190);
+    --tamanhoLifnk: 1.5rem;
+}
+
+header {
+    background-color: var(--corFundo);
+}
+
+a {
+    font-size: var(--tamanhoLink);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: rgb(255, 0, 0);
+}
+
+
+
+
+.menuPrincipal {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+.menuPrincipal > li:hover{
+    transform: translateY(-6px);
+    transition: 0.4s;
+}
+@media screen and (max-width :600px) {
+
+    header {
+        position:fixed;
+        left: 0;
+        width: 100px;
+        height: 100vh;
+
+
+    }
+}
+
+a{
+    font-size: var(--tamanhoLifnk);
+}

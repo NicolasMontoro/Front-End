@@ -46,3 +46,17 @@ a:hover{
 a{
     font-size: var(--tamanhoLifnk);
 }
+
+.Kd {
+    background-color: #777;
+    height: 100px;
+}
+
+.MenuKd {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}

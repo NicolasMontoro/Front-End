@@ -1,5 +1,5 @@
 .Kd{
-    background-color: brown
+    background-color: #bebebe;
 }
 
 @media screen and (max-width: 600px) {
@@ -22,3 +22,66 @@
 }
 
 }
+
+#h1{
+    text-align: center;
+    position: relative;
+    top: 5vh;
+    font-size: 25px;
+}
+
+
+
+#Kevin{
+    position: relative;
+    bottom:30%
+}
+
+body, html {
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 100%;
+    padding: 0 50px; 
+}
+
+.texto {
+    width: 1100px;
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.imagem {
+height: 900px;
+background-position-x: right;
+background-position-y: center;
+}
+
+.titulo {
+    position: relative;
+    bottom: 70px;
+    font-weight: bold;
+}
+
+.Sub-Titulo{
+position: relative;
+bottom: 55px;
+font-style:initial;
+font-variant:unset;
+
+}
+
+.Kd9{
+    height: 10px;
+    position: relative;
+    left: 30px;
+}
+
+

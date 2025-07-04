@@ -1,5 +1,10 @@
+*{
+    padding: 0;
+
+    margin: 0;
+}
 :root {
-    --corFundo: rgb(190, 190, 190);
+    --corFundo: #ffffff;
     --tamanhoLifnk: 1.5rem;
 }
 
@@ -31,6 +36,12 @@ a:hover{
     transform: translateY(-6px);
     transition: 0.4s;
 }
+
+.MenuKd > li:hover{
+    transform: translateY(-6px);
+transition: 0.4s;}
+
+
 @media screen and (max-width :600px) {
 
     header {
@@ -60,3 +71,47 @@ a{
     align-items: center;
     gap: 20px;
 }
+
+.Sim{
+    background-color: #f5f3f3;
+    position: absolute;
+    width: 100%;
+    height: 25px;
+}
+
+
+#Jordan{
+    width: 35px;
+    height: 25px;
+  }
+
+#Logo{
+    position: relative;right: 45.6%;top: 10px;
+}
+
+#Kd{
+    height: 25px;
+}
+
+li {
+    position: relative;
+    top: 5px;
+    font-family:Garamond;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 8px;
+}
+
+#Home {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+#Home > li:hover{
+    transform: translateY(-6px);
+    transition: 0.4s;}

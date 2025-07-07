@@ -4,16 +4,6 @@
 
 
 
-#h1{
-    text-align: center;
-    position: relative;
-    top: 3vh;
-    font-size: 25px;
-
-}
-
-
-
 /* #Kevin{
     position: relative;
     bottom:30%
@@ -37,8 +27,15 @@ html {
     text-align: left;
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* padding-top: 50px; */
+    max-width: 900px;
+    width: 100%;
+    font:inherit;
+}
 
+.divtexto{
+    max-width: 320px;
+    width: 100%;
+    font:inherit;
 }
 
 .container {
@@ -49,25 +46,16 @@ html {
 }
 
 .container img {
-    width: 36vw;
-    height: 40vw;
-}
-
-.titulo {
-    margin-bottom: 50px;
-}
-
-/* .imagem {
 height: 900px;
 background-position-x: right;
 background-position-y: center;
 } */
 
-/* .titulo {
+ .titulo {
     position: relative;
-    bottom: 70px;
+    bottom: 100px;
     font-weight: bold;
-} */
+}
 
 /* .Sub-Titulo{
 position: relative;
@@ -100,43 +88,7 @@ font-variant:unset;
 } */
 
 
-@media screen and (max-width: 600px) {
 
-    main,
-    footer {
-        margin-left: 100px;
-    }
-
-    main {
-        max-height: calc(100vh - 32px -100px);
-    }
-
-    .container {
-        display: flex;
-        padding: 50px 20px;
-        flex-direction: column-reverse;
-
-    }
-
-}
-
-@media screen and (min-width: 601px) {
-
-    * {
-
-        padding: 0;
-
-        margin: 0;
-    }
-
-    .container {
-        /* display: flex; */
-        /* flex-direction: row; */
-        padding: 50px 20vw;
-    }
-
-
-}
 
 main {
     max-width: 1000px;
@@ -168,8 +120,114 @@ main {
     text-align: center;
 }
 
-.Tenis16{
-    height: 700px;
-
-    padding-right: 100px;
+.k15{
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+
+.titulo16 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titulo15 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.p16{
+    
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.Kd17{
+    max-width: 1000px;
+    margin: 2rem auto;
+    background-color: rgb(255, 255, 255);
+    border: 4px double;
+    padding: 2rem;
+    box-shadow: 0 0 10px;
+}
+
+.KD17{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+
+
+    .container {
+        display: flex;
+        padding: 50px 20px;
+        flex-direction: column-reverse;
+
+    }
+    .Tenis16{
+        width: 250px;
+    }
+    
+    .img15{
+        width: 250px;
+    }
+
+    .kD17{
+        width: 250px;
+    }
+    
+}
+
+@media screen and (min-width: 601px) {
+
+    * {
+
+        padding: 0;
+
+        margin: 0;
+    }
+
+    .container {
+        /* display: flex; */
+        /* flex-direction: row; */
+        padding: 50px 20vw;
+    }
+
+    .Tenis16{
+        width: 30vw;
+        padding-right: 100px;
+    }
+    
+    .img15{
+        width: 30vw;
+        padding-right: 100px;
+    }
+
+    .iconkd{
+        position: relative;
+        padding-top: 50px;
+
+    }
+
+    .kD17{
+    width: 30vw;
+    padding-right: 100px;
+    }
+
+
+}
+

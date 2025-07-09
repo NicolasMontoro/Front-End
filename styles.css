@@ -1,0 +1,166 @@
+/* Resetando margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte Global */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+header {
+    background-color: #000000;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ff9800;
+}
+
+.intro {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.intro-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.intro-text p {
+    font-size: 1.2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+.career {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.career h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.career p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.achievements {
+    background-color: #eeeeee;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.achievements h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.achievements ul {
+    list-style-type: none;
+    font-size: 1.1rem;
+    padding-left: 0;
+}
+
+.achievements li {
+    margin: 10px 0;
+}
+
+
+.gallery {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.carousel img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.carousel img:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+footer .social-links a:hover {
+    color: #ff9800;
+}

@@ -46,7 +46,7 @@ html {
 }
 
 .container img {
-height: 900px;
+
 background-position-x: right;
 background-position-y: center;
 } */
@@ -165,8 +165,45 @@ main {
     text-align: center;
 }
 
+.p18{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.texto18{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
 
 
+footer {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .carousel {
+        flex-direction: column;
+    }
+
+    .carousel img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
 
 
 
@@ -203,6 +240,12 @@ main {
 
     }
     
+    .Kd18{
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width: 601px) {
@@ -241,6 +284,10 @@ main {
         padding-left: 150px;
     }
 
+    .Kd18{
+        width: 30vw;
+        padding-left: 150px;
+    }
 
 }
 

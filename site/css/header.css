@@ -41,19 +41,6 @@ a:hover{
     transform: translateY(-6px);
 transition: 0.4s;}
 
-
-@media screen and (max-width :600px) {
-
-    header {
-        position:fixed;
-        left: 0;
-        width: 100px;
-        height: 100vh;
-
-
-    }
-}
-
 a{
     font-size: var(--tamanhoLifnk);
 }
@@ -87,6 +74,8 @@ a{
 
 #Logo{
     position: relative;right: 45.6%;top: 10px;
+    display: flex;
+    
 }
 
 #Kd{
@@ -103,15 +92,60 @@ li {
     border-radius: 25px;
     padding: 8px;
 }
-/* 
-#Home {
 
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 20px;
-} */
+
+
+
+
+
+
+
+ 
 #Home > li:hover{
     transform: translateY(-6px);
     transition: 0.4s;}
+
+    @media screen and (max-width :600px) {
+
+        header {
+            left: 0;
+            width: 100px;
+            height: 100vh;
+            background-color: var(--corFundo);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            position: relative;
+            
+    
+        }
+        
+        header #MenuKd{
+            position: relative;
+            border-bottom: 300px;
+        }
+    
+        #Logo{ 
+            position: relative;
+            margin-left: 150px; 
+            width: 50px; 
+            height: auto;
+            transition: all 0.3s ease;  /* Suaviza transições */
+        }
+            
+            #Logo img {
+                
+            }
+            
+            
+            #Logo:hover {
+                opacity: 1;
+            }
+            
+}
+
+@media screen and (min-width :600px) {
+
+
+}

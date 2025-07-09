@@ -159,8 +159,11 @@ main {
     text-align: center;
 }
 
-
-
+.p17{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
 
 
 
@@ -179,15 +182,25 @@ main {
 
     }
     .Tenis16{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 250px;
     }
     
     .img15{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 250px;
     }
 
     .kD17{
         width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
     
 }
@@ -202,8 +215,8 @@ main {
     }
 
     .container {
-        /* display: flex; */
-        /* flex-direction: row; */
+        display: flex; 
+         flex-direction: row;
         padding: 50px 20vw;
     }
 
@@ -224,8 +237,8 @@ main {
     }
 
     .kD17{
-    width: 30vw;
-    padding-right: 100px;
+        width: 30vw;
+        padding-left: 150px;
     }
 
 
